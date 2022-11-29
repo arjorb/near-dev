@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import Navbar from '../components/ui/Navbar';
 
 export default function Home() {
   return (
@@ -14,11 +15,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className=''>
-        <h1 className='text-3xl text-center text-[#03a09e] underline'>
-          Welcome to <Link href='/'>NEAR dev!</Link>
-        </h1>
-      </main>
+      <Navbar />
     </div>
   );
 }
