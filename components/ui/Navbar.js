@@ -7,7 +7,7 @@ import nears from '../../public/nears.svg';
 const Navbar = () => {
   return (
     <>
-      <div className='fixed top-0 left-0 right-0 w-full max-w-screen-lg mx-auto h-20 p-4 flex justify-between items-center'>
+      <div className='fixed top-0 left-0 right-0 max-w-screen-lg mx-auto p-4 h-20  flex justify-between items-center'>
         {/* Logo  */}
         <div className='flex'>
           <div>

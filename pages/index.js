@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import Footer from '../components/ui/Footer';
 import Navbar from '../components/ui/Navbar';
 
 export default function Home() {
@@ -16,6 +17,8 @@ export default function Home() {
       </Head>
 
       <Navbar />
+      <main className='h-[100vh]'></main>
+      <Footer />
     </div>
   );
 }
